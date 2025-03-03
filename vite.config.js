@@ -6,5 +6,5 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: "/src" }],
   },
-  base: "/3D_Design_Portfolio/", // Set base to your GitHub repo name
+  base: "/3D_Portfolios/", // Set base to your GitHub repo name
 });
