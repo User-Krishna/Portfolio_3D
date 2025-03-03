@@ -220,7 +220,7 @@ const projects = [
   {
     name: "Sports E-Commerce ",
     description:
-      "A user-friendly online store for sports equipment and apparel, offering seamless browsing, secure payments, and personalized product recommendations for sports enthusiasts.",
+      "A user-friendly online store for sports equipments and apparel, offering seamless browsing, secure payments, and personalized product recommendations for sports enthusiasts.",
     tags: [
       {
         name: "HTML",
