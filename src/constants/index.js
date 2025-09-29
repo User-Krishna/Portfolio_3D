@@ -55,7 +55,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Java Deeloper",
+    title: "Java Developer",
     icon: web,
   },
   {
@@ -290,8 +290,7 @@ const projects = [
       },
     ],
     image: zealApp,
-   // hosted_link:
-    //  "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
+    hosted_link: "https://github.com/User-Krishna/Multimedia-Summarizer-Learning-Assistant",
   },
   {
     name: "Faculty Allocation System",
@@ -369,7 +368,7 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1Nyd2UItY0jCKX-e54BJZTIlqIx4fA0ha/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1-4t9NWFn4warllIiMXPUDgJmFlqfjBwF/view?usp=drivesdk",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
