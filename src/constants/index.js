@@ -362,7 +362,7 @@ const personalInfo = {
   real-world problems. Let's work together to bring your ideas to life!`,
   projectsIntro: `Following projects showcases my skills and experience through
   real-world examples of my work. Each project is briefly described with
-  live demos. It reflects my ability to solve complex problems, work
+  live demos. It reflects my ability to solve complex problem, work
   with different technologies, and manage projects effectively.`,
 };
 
