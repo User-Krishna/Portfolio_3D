@@ -20,7 +20,6 @@ import {
   nickelfox,
   newgen,
   skillrisers,
-  proximus,
   aptihealthWeb,
   aptihealthApp,
   zealWeb,
@@ -29,6 +28,12 @@ import {
   rollApp,
   linkedIn,
   github,
+  cert1,
+  cert2,
+  cert3,
+  cert4,
+  cert5,
+  cert6,
 } from "../assets";
 
 const navigationPaths = {
@@ -55,22 +60,27 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Java Developer",
+    title: "Java Full Stack Developer",
     icon: web,
+    tools: ["Java", "Spring Boot", "React", "MySQL", "Git"],
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "NodeJs Developer",
+    title: "Machine Learning & Data Analyst",
     icon: backend,
+    tools: ["Python", "NumPy", "Pandas", "Scikit-learn", "Matplotlib"],
   },
   {
-    title: "Javascript Developer",
+    title: "UI/UX Designer & Frontend Developer",
+    icon: mobile,
+    tools: ["Figma", "React", "HTML", "CSS", "Tailwind"],
+  },
+  {
+    title: "Database Designer & SQL Developer",
     icon: creator,
+    tools: ["MySQL", "MongoDB", "PostgreSQL", "ER Diagrams", "Indexing"],
   },
 ];
+
 
 const technologies = [
   {
@@ -118,6 +128,20 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Web Development Intern-(MERN)",
+    company_name: "Edunet Foundation",
+    company_website: "https://edunetfoundation.org/",
+    icon: skillrisers,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - March 2025",
+    points: [
+      "Developed and maintained web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
+      "Built a **Recipe Sharing App**, enabling users to upload, browse, and share recipes with an intuitive UI.",
+      "Implemented features such as user authentication, recipe categorization, and real-time search functionality.",
+      "Optimized website performance, ensuring fast load times and seamless user experience.",
+    ],
+  },
+  {
     title: "B.Tech-Computer Science",
     company_name: "Guru Nanak Institute Of Technology-Hyderabad,Telangana(India)",
     company_website: "https://www.gnithyd.ac.in/",
@@ -157,34 +181,7 @@ const experiences = [
       "Actively participated in science exhibitions, coding activities, and academic competitions.",
     ],
   },
-  {
-    title: "Web Development Intern-(MERN)",
-    company_name: "Edunet Foundation",
-    company_website: "https://edunetfoundation.org/",
-    icon: skillrisers,
-    iconBg: "#E6DEDD",
-    date: "Jan 2025 - March 2025",
-    points: [
-      "Developed and maintained web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
-      "Built a **Recipe Sharing App**, enabling users to upload, browse, and share recipes with an intuitive UI.",
-      "Implemented features such as user authentication, recipe categorization, and real-time search functionality.",
-      "Optimized website performance, ensuring fast load times and seamless user experience.",
-    ],
-  },
-  {
-    title: "Java Development Intern",
-    company_name: "TechnoHacks",
-    company_website: "https://technohacksedutech.com/page.php?page=serviceshttps://proximus.surge.sh/index.html",
-    icon: proximus,
-    iconBg: "#E6DEDD",
-    date: "Feb 2024 - Jun 2024",
-    points: [
-      "Developed a **Faculty Allocation Scheduler** to automate faculty assignments based on course schedules.",
-      "Worked with **Java, Spring Boot, and Hibernate** to build scalable and efficient applications.",
-      "Designed and optimized database management using **MySQL** for secure data handling.",
-      "Collaborated with a team to debug, enhance performance, and implement new features.",
-    ],
-  },
+  
 ];
 
 const projects = [
@@ -349,7 +346,38 @@ const projects = [
       "https://github.com/User-Krishna/Placement_Management_System",
   },
 ];
-
+const certificates = [
+  {
+    id: 1,
+    title: "Internship at Edunet Foundation(MERN)",
+    image: cert1,
+  },
+  {
+    id: 2,
+    title: "Silver Medallist(2nd Rank in Academics)",
+    image: cert2,
+  },
+  {
+    id: 3,
+    title: "Research Paper Published",
+    image: cert3,
+  },
+  {
+    id: 4,
+    title: "Winner of QUIZZOTICA 2.0 Competition",
+    image: cert4,
+  },
+  {
+    id: 5,
+    title: "Python Certificate",
+    image: cert5,
+  },
+  {
+    id: 6,
+    title: "Data Science using Python",
+    image: cert6,
+  },
+];
 const personalInfo = {
   name: "Krishna",
   fullName: "Krishna Das",
@@ -368,7 +396,7 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1-4t9NWFn4warllIiMXPUDgJmFlqfjBwF/view?usp=drivesdk",
+    "https://drive.google.com/file/d/18NCcGzItlcy8AWkdrr9B8HraZPOoI4tT/view?usp=drivesdk",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
@@ -388,6 +416,7 @@ export {
   technologies,
   experiences,
   projects,
+  certificates,
   navigationPaths,
   personalInfo,
   publicUrls,

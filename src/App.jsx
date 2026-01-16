@@ -5,8 +5,8 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Tech from "./components/Tech";
 import Works from "./components/Works";
+import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
-import { StarsCanvas } from "./components/canvas";
 import HireMe from "./components/HireMe";
 
 const App = () => {
@@ -17,14 +17,19 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+
         <About />
         <Experience />
         <Tech />
         <Works />
+
+        {/* ✅ Certificates BELOW Projects */}
+        <Certificates />
+
         <div className="relative z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
         </div>
+
         <HireMe />
       </div>
     </BrowserRouter>

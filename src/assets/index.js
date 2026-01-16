@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import logo from "./logo.png";
+import backend from "./ML and Data Analyst.png";
+import creator from "./Database Designer.png";
+import mobile from "./UIUX.png";
+import web from "./java Fullstack.png";
 import github from "./github.png";
 import linkedIn from "./linkedIn.png";
 import menu from "./menu.svg";
@@ -27,7 +27,7 @@ import crmnext from "./company/crmnext.png";
 import nickelfox from "./company/nickelfox.png";
 import newgen from "./company/newgen.png";
 import skillrisers from "./company/skillrisers.png";
-import proximus from "./company/proximus.png";
+
 
 import aptihealthWeb from "./projects/aptihealthWeb.png";
 import aptihealthApp from "./projects/aptihealthApp.png";
@@ -35,6 +35,14 @@ import zealWeb from "./projects/zealWeb.png";
 import zealApp from "./projects/zealApp.png";
 import rollWeb from "./projects/rollWeb.png";
 import rollApp from "./projects/rollApp.png";
+
+import cert1 from "./certificates/certificate-1.jpeg";
+import cert2 from "./certificates/certificate-2.jpg";
+import cert3 from "./certificates/certificate-3.jpeg";
+import cert4 from "./certificates/certificate-4.jpg";
+import cert5 from "./certificates/certificate-5.jpeg";
+import cert6 from "./certificates/certificate-6.jpeg";
+
 
 export {
   logo,
@@ -65,11 +73,16 @@ export {
   nickelfox,
   newgen,
   skillrisers,
-  proximus,
   aptihealthWeb,
   aptihealthApp,
   zealWeb,
   zealApp,
   rollWeb,
   rollApp,
+  cert1,
+  cert2,
+  cert3,
+  cert4,
+  cert5,
+  cert6,
 };
