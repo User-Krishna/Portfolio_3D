@@ -81,7 +81,6 @@ const services = [
   },
 ];
 
-
 const technologies = [
   {
     name: "HTML 5",
